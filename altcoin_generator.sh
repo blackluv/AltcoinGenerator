@@ -14,10 +14,10 @@
 # CHAIN variable below
 
 # change the following variables to match your new coin
-COIN_NAME="MyCoin"
-COIN_UNIT="MYC"
+COIN_NAME="Rubble"
+COIN_UNIT="RUL"
 # 42 million coins at total (litecoin total supply is 84000000)
-TOTAL_SUPPLY=42000000
+TOTAL_SUPPLY=40000000
 MAINNET_PORT="54321"
 TESTNET_PORT="54322"
 PHRASE="Some newspaper headline that describes something that happened today"
@@ -26,12 +26,13 @@ PUBKEY_CHAR="20"
 # number of blocks to wait to be able to spend coinbase UTXO's
 COINBASE_MATURITY=100
 # leave CHAIN empty for main network, -regtest for regression network and -testnet for test network
-CHAIN="-regtest"
+CHAIN=
 # this is the amount of coins to get as a reward of mining the block of height 1. if not set this will default to 50
-#PREMINED_AMOUNT=10000
+PREMINED_AMOUNT=1000000
 
 # warning: change this to your own pubkey to get the genesis block mining reward
-GENESIS_REWARD_PUBKEY=044e0d4bc823e20e14d66396a64960c993585400c53f1e6decb273f249bfeba0e71f140ffa7316f2cdaaae574e7d72620538c3e7791ae9861dfe84dd2955fc85e8
+GENESIS_REWARD_PUBKEY=044BAA33DACE1DAE41F3BDC3B462160ED1FED1C6327250AAF35231F2F95E69016BC6C70208CD83A337C8B84BFD1DFE44C9DD861111BD77A336CA15BD1A716057C2
+
 
 # dont change the following variables unless you know what you are doing
 LITECOIN_BRANCH=0.16
