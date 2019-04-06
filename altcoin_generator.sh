@@ -20,7 +20,7 @@ COIN_UNIT="DTC"
 TOTAL_SUPPLY=30000000
 MAINNET_PORT="5461"
 TESTNET_PORT="5463"
-PHRASE="Efe Obada: The NFL star abandoned on London's streets at age of 10"
+PHRASE="BBC sports 05/04/2019 Efe Obada: The NFL star abandoned on London's streets at age of 10"
 # First letter of the wallet address. Check https://en.bitcoin.it/wiki/Base58Check_encoding
 PUBKEY_CHAR="12"
 # number of blocks to wait to be able to spend coinbase UTXO's
@@ -28,7 +28,7 @@ COINBASE_MATURITY=100
 # leave CHAIN empty for main network, -regtest for regression network and -testnet for test network
 CHAIN=
 # this is the amount of coins to get as a reward of mining the block of height 1. if not set this will default to 50
-PREMINED_AMOUNT=1000000
+PREMINED_AMOUNT=10
 
 # warning: change this to your own pubkey to get the genesis block mining reward
 GENESIS_REWARD_PUBKEY=044BAA33DACE1DAE41F3BDC3B462160ED1FED1C6327250AAF35231F2F95E69016BC6C70208CD83A337C8B84BFD1DFE44C9DD861111BD77A336CA15BD1A716057C2
