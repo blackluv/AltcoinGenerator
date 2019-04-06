@@ -14,15 +14,15 @@
 # CHAIN variable below
 
 # change the following variables to match your new coin
-COIN_NAME="Rubble"
-COIN_UNIT="RUL"
+COIN_NAME="Dotcoin"
+COIN_UNIT="DTC"
 # 42 million coins at total (litecoin total supply is 84000000)
-TOTAL_SUPPLY=40000000
-MAINNET_PORT="54321"
-TESTNET_PORT="54322"
-PHRASE="Some newspaper headline that describes something that happened today"
+TOTAL_SUPPLY=30000000
+MAINNET_PORT="5461"
+TESTNET_PORT="5463"
+PHRASE="Efe Obada: The NFL star abandoned on London's streets at age of 10"
 # First letter of the wallet address. Check https://en.bitcoin.it/wiki/Base58Check_encoding
-PUBKEY_CHAR="20"
+PUBKEY_CHAR="12"
 # number of blocks to wait to be able to spend coinbase UTXO's
 COINBASE_MATURITY=100
 # leave CHAIN empty for main network, -regtest for regression network and -testnet for test network
